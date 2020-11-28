@@ -1,0 +1,46 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="style.css">
+        <link rel="shortcut icon" href="logo_cake.png" type="image/x-icon">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Delius&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Handlee&display=swap" rel="stylesheet">
+        <title>Happy Birthday Dad</title>
+    </head>
+    <body>
+       <nav>
+           <h3>Happy Birthday Dad</h3>
+           <button onclick="menu()"><img src="menu_bar.png" alt="Options" height="100px"></button>
+       </nav>
+       <div id="navigation">
+              <a href="#Home"><button>Home</button></a>
+              <a href="#Quote"><button>Quote</button></a>
+              <a href="#Letter"><button>Birthday Letter</button></a>
+       </div>
+
+      <div id="Home">
+
+      </div>
+      <div id="Quote">
+          
+      </div>
+       <div id="Letter">
+         <p>To My Dear Father, <br> Thanks for all that you have given to me, your love and your care. I have to mention that you have been a very good friend for me. But sometimes, we have few quarrels between us and sometimes, it is also because that you treat me equal to you. But, please forgive me for all the times when I behaved rude to you. I would like to Thank You for all that you have done to me. Happy Birthday</p>
+       </div>
+
+    </body>
+    <script>
+        var activity;
+        function menu() {
+        if (activity == "active") {
+        document.getElementById("navigation").style.visibility = "hidden";
+        activity = "inactive";
+        }
+        else {
+        document.getElementById("navigation").style.visibility = "visible";
+        activity = "active";
+        }
+        }
+    </script>
+</html>

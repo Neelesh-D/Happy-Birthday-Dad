@@ -1,0 +1,83 @@
+*{
+   margin: 0%;
+   padding: 0%; 
+   box-sizing: border-box;
+   scroll-behavior: smooth;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+    
+}
+nav{
+    width: 100%;
+    height: 8%;
+    background-color: rgba(255, 238, 6, 0.904);   
+    display: flex;
+    position: fixed;
+}
+nav>h3{
+    font-size: 60px;
+    position: relative;
+    top: 25%;
+    padding-left: 40px;
+    font-family: 'Delius', cursive;
+}
+nav>button{
+    height: 100px;
+    width: 100px;
+    border-radius: 15px;
+    margin-top: 3%;
+    margin-left: 28%;
+    background-color: rgb(255, 225, 57);
+    border-width: 2px;
+}
+#navigation{
+    height: 10%;
+    width: 30%;
+    background-color: rgb(255, 208, 0);
+    margin-left: 69.8%;
+    border-radius: 10px;
+    visibility: hidden;
+    margin-top: 17.3%;
+    position: fixed;
+}
+a>button{
+    width: 100%;
+    height: 28%;
+    font-size: 27px;
+    margin-bottom: 5%;
+    background-color:  rgba(255, 174, 0, 0.26);
+    border-color:   rgb(212, 146, 3);
+    
+}
+
+#Home{
+    height: 100%;
+    width: 100%;
+    background-image: url(https://i.pinimg.com/originals/61/b3/aa/61b3aa0c8fac8e508dcada72f7f41840.jpg);
+    background-size: cover;
+    background-position: center;
+}
+#Quote{
+    height: 100%;
+    width: 100%;
+    background-image: url(Quotes.jpg);
+    background-size: cover;
+    background-position: center;
+}
+#Letter{
+    height: 100%;
+    width: 100%;
+    background-color: rgb(66, 255, 239);
+    background-size: cover;
+    background-position: center;
+}
+
+#Letter>p{
+    padding-top: 19%;
+    padding-left: 2%;
+    padding-right: 2%;
+    font-size: 60px;
+    font-family: 'Handlee', cursive;
+}
